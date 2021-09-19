@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31606.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModpackCreationEnvironment", "ModpackCreationEnvironment\ModpackCreationEnvironment.csproj", "{2D7ED92F-DC98-4186-B68C-4E195D444A67}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModpackCreationEnvironment.Forge", "MCE.Console\ModpackCreationEnvironment.Forge.csproj", "{BA0E5700-02B8-43ED-B0BD-C64F088022F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModpackCreationEnvironment.Forge", "ModpackCreationEnvironment.Forge\ModpackCreationEnvironment.Forge.csproj", "{BA0E5700-02B8-43ED-B0BD-C64F088022F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
