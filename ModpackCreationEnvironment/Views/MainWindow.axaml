@@ -1,0 +1,27 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ModpackCreationEnvironment.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ModpackCreationEnvironment.Views.MainWindow"
+        Icon="/Assets/logo.ico"
+		HasSystemDecorations="True"
+	    ExtendClientAreaToDecorationsHint="True"
+		Background="#121212"
+        Title="Modpack Creation Environment">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+	<Grid ColumnDefinitions="1*" RowDefinitions="30,430*">
+		<StackPanel Background="#1f1f1f" Orientation="Horizontal">
+			<Image Source="/Assets/logo.ico" Width="16" Margin="4"/>
+			<TextBlock Text="{Binding AppTitle}" VerticalAlignment="Center"/>
+		</StackPanel>
+		<Grid Grid.Row="1" ColumnDefinitions="1*" RowDefinitions="250*,20,600*">
+			<Label Content="{Binding TextDargAndDrop}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#1e1e1e" Margin="4"/>
+		</Grid>
+	</Grid>
+
+</Window>
